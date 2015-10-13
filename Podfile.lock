@@ -1,0 +1,14 @@
+PODS:
+  - JiveFetchedResultsControllerDelegate (0.1.0)
+
+DEPENDENCIES:
+  - JiveFetchedResultsControllerDelegate (from `.`)
+
+EXTERNAL SOURCES:
+  JiveFetchedResultsControllerDelegate:
+    :path: .
+
+SPEC CHECKSUMS:
+  JiveFetchedResultsControllerDelegate: 5d97727a99cf3e3e16e4167e58cfff9ee48530cd
+
+COCOAPODS: 0.38.2

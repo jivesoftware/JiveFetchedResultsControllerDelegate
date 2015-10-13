@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		059F433CB6415E528D3C2CF1DE8DB9E2 /* JiveFetchedResultsControllerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = D18CBD8EF6CA08D828AD6CAABAA8EA1D /* JiveFetchedResultsControllerDelegate.h */; };
+		175055B0D0462D39A0BCFBAB28C50E77 /* JiveFetchedResultsControllerDelegate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8183C85EF861F769F34C795608A3660F /* JiveFetchedResultsControllerDelegate-dummy.m */; };
+		83E0B7A8C300E3AFDCE7AC2986864FFF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 603170FBC41962AF2510B561D5890DAF /* UIKit.framework */; };
+		86F069A97AF1B16995D53BF47793493E /* Pods-JiveFetchedResultsControllerDelegateDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BFCDB1BBB242362FBEA9BC550B2F680C /* Pods-JiveFetchedResultsControllerDelegateDemo-dummy.m */; };
+		995B8798D400CF7E87331D992D5CAF50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3F07AE05FA006136FC89B47A85C9FF7 /* Foundation.framework */; };
+		C0F6CB8835F2FB2B81140AB5C90CAB79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3F07AE05FA006136FC89B47A85C9FF7 /* Foundation.framework */; };
+		EE541EA15385A1A80E3242916239E2ED /* JiveFetchedResultsControllerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A212F395DF8DA95BDBA3E68CF15BF0F /* JiveFetchedResultsControllerDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B2EC059AE67C8B7E73C89E88AECC49EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE305EC119955E2CF29703D3DC967BFF;
+			remoteInfo = JiveFetchedResultsControllerDelegate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0680FBF68B3508F3EECBDE0764A197FE /* JiveFetchedResultsControllerDelegate-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JiveFetchedResultsControllerDelegate-prefix.pch"; sourceTree = "<group>"; };
+		0A856708C451D1D4F7852CF621F7F8AE /* JiveFetchedResultsControllerDelegate.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JiveFetchedResultsControllerDelegate.xcconfig; sourceTree = "<group>"; };
+		20F0809EA87B4217E1B7F66D81FA88F1 /* Pods-JiveFetchedResultsControllerDelegateDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JiveFetchedResultsControllerDelegateDemo.release.xcconfig"; sourceTree = "<group>"; };
+		603170FBC41962AF2510B561D5890DAF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		63DB6BF6E0249F734FB5A941713A4679 /* libPods-JiveFetchedResultsControllerDelegateDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JiveFetchedResultsControllerDelegateDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A212F395DF8DA95BDBA3E68CF15BF0F /* JiveFetchedResultsControllerDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JiveFetchedResultsControllerDelegate.m; sourceTree = "<group>"; };
+		8183C85EF861F769F34C795608A3660F /* JiveFetchedResultsControllerDelegate-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JiveFetchedResultsControllerDelegate-dummy.m"; sourceTree = "<group>"; };
+		993F8460F6BFED969B5EE8EC90BE5774 /* Pods-JiveFetchedResultsControllerDelegateDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JiveFetchedResultsControllerDelegateDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		A30A7760ADADAEAAE72E743490817321 /* Pods-JiveFetchedResultsControllerDelegateDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JiveFetchedResultsControllerDelegateDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AF751BA717D50D60528869046E8B572D /* libJiveFetchedResultsControllerDelegate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJiveFetchedResultsControllerDelegate.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BFCDB1BBB242362FBEA9BC550B2F680C /* Pods-JiveFetchedResultsControllerDelegateDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JiveFetchedResultsControllerDelegateDemo-dummy.m"; sourceTree = "<group>"; };
+		C250F6CAD7DE9D5EB476919D3C7B22F4 /* Pods-JiveFetchedResultsControllerDelegateDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JiveFetchedResultsControllerDelegateDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		CA4E16D9C8091FB1EBB19CCDAF8710A9 /* JiveFetchedResultsControllerDelegate-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "JiveFetchedResultsControllerDelegate-Private.xcconfig"; sourceTree = "<group>"; };
+		D18CBD8EF6CA08D828AD6CAABAA8EA1D /* JiveFetchedResultsControllerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JiveFetchedResultsControllerDelegate.h; sourceTree = "<group>"; };
+		E3F07AE05FA006136FC89B47A85C9FF7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F3C7802A875EEA17324246B865A5B28C /* Pods-JiveFetchedResultsControllerDelegateDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JiveFetchedResultsControllerDelegateDemo-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95E0590CADB0EF1464E27A2C16DB4F37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				995B8798D400CF7E87331D992D5CAF50 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD81E512C2487A27FDE93FB2AA5E2DD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0F6CB8835F2FB2B81140AB5C90CAB79 /* Foundation.framework in Frameworks */,
+				83E0B7A8C300E3AFDCE7AC2986864FFF /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04483D019036FAB8DF7C084E05330B21 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3AABC65864447909D13140BA5537E70E /* JiveFetchedResultsControllerDelegate */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3AABC65864447909D13140BA5537E70E /* JiveFetchedResultsControllerDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				40777E56B998E5B6306E65650E8E592F /* Source */,
+				67821F0A5DCA7A0CF39266219503A796 /* Support Files */,
+			);
+			name = JiveFetchedResultsControllerDelegate;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		40777E56B998E5B6306E65650E8E592F /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				76FA849BB634125D1B29871C2C621335 /* JiveFetchedResultsControllerDelegate */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0FB9306D21AF23A056944AE037CBFFF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5038EB07051F6AEFA3D1C5CB455E6833 /* Pods-JiveFetchedResultsControllerDelegateDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A30A7760ADADAEAAE72E743490817321 /* Pods-JiveFetchedResultsControllerDelegateDemo-acknowledgements.markdown */,
+				993F8460F6BFED969B5EE8EC90BE5774 /* Pods-JiveFetchedResultsControllerDelegateDemo-acknowledgements.plist */,
+				BFCDB1BBB242362FBEA9BC550B2F680C /* Pods-JiveFetchedResultsControllerDelegateDemo-dummy.m */,
+				F3C7802A875EEA17324246B865A5B28C /* Pods-JiveFetchedResultsControllerDelegateDemo-resources.sh */,
+				C250F6CAD7DE9D5EB476919D3C7B22F4 /* Pods-JiveFetchedResultsControllerDelegateDemo.debug.xcconfig */,
+				20F0809EA87B4217E1B7F66D81FA88F1 /* Pods-JiveFetchedResultsControllerDelegateDemo.release.xcconfig */,
+			);
+			name = "Pods-JiveFetchedResultsControllerDelegateDemo";
+			path = "Target Support Files/Pods-JiveFetchedResultsControllerDelegateDemo";
+			sourceTree = "<group>";
+		};
+		67821F0A5DCA7A0CF39266219503A796 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A856708C451D1D4F7852CF621F7F8AE /* JiveFetchedResultsControllerDelegate.xcconfig */,
+				CA4E16D9C8091FB1EBB19CCDAF8710A9 /* JiveFetchedResultsControllerDelegate-Private.xcconfig */,
+				8183C85EF861F769F34C795608A3660F /* JiveFetchedResultsControllerDelegate-dummy.m */,
+				0680FBF68B3508F3EECBDE0764A197FE /* JiveFetchedResultsControllerDelegate-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Pods/Target Support Files/JiveFetchedResultsControllerDelegate";
+			sourceTree = "<group>";
+		};
+		76FA849BB634125D1B29871C2C621335 /* JiveFetchedResultsControllerDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				D18CBD8EF6CA08D828AD6CAABAA8EA1D /* JiveFetchedResultsControllerDelegate.h */,
+				6A212F395DF8DA95BDBA3E68CF15BF0F /* JiveFetchedResultsControllerDelegate.m */,
+			);
+			path = JiveFetchedResultsControllerDelegate;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				04483D019036FAB8DF7C084E05330B21 /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				F77ED5825E1FDB5654B2D6A062CC4D35 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF751BA717D50D60528869046E8B572D /* libJiveFetchedResultsControllerDelegate.a */,
+				63DB6BF6E0249F734FB5A941713A4679 /* libPods-JiveFetchedResultsControllerDelegateDemo.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0FB9306D21AF23A056944AE037CBFFF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E3F07AE05FA006136FC89B47A85C9FF7 /* Foundation.framework */,
+				603170FBC41962AF2510B561D5890DAF /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F77ED5825E1FDB5654B2D6A062CC4D35 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5038EB07051F6AEFA3D1C5CB455E6833 /* Pods-JiveFetchedResultsControllerDelegateDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		44304E47CEC3683FB748BFBA0634137B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				059F433CB6415E528D3C2CF1DE8DB9E2 /* JiveFetchedResultsControllerDelegate.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		01CF337BF3FA7C9A8CFDD65E8D42E2B6 /* Pods-JiveFetchedResultsControllerDelegateDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68B36EF5CF4C098ABE95D69F4885E880 /* Build configuration list for PBXNativeTarget "Pods-JiveFetchedResultsControllerDelegateDemo" */;
+			buildPhases = (
+				483E7804B3D5480D38BD204FA0FD950E /* Sources */,
+				95E0590CADB0EF1464E27A2C16DB4F37 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1F09D93C67F240A98947E434AE4BDAA /* PBXTargetDependency */,
+			);
+			name = "Pods-JiveFetchedResultsControllerDelegateDemo";
+			productName = "Pods-JiveFetchedResultsControllerDelegateDemo";
+			productReference = 63DB6BF6E0249F734FB5A941713A4679 /* libPods-JiveFetchedResultsControllerDelegateDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BE305EC119955E2CF29703D3DC967BFF /* JiveFetchedResultsControllerDelegate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 336A93B59082C21FD2F3ED6F19310CA8 /* Build configuration list for PBXNativeTarget "JiveFetchedResultsControllerDelegate" */;
+			buildPhases = (
+				085EA30593C1346E2A63DFBD81E004A1 /* Sources */,
+				AD81E512C2487A27FDE93FB2AA5E2DD0 /* Frameworks */,
+				44304E47CEC3683FB748BFBA0634137B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JiveFetchedResultsControllerDelegate;
+			productName = JiveFetchedResultsControllerDelegate;
+			productReference = AF751BA717D50D60528869046E8B572D /* libJiveFetchedResultsControllerDelegate.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE305EC119955E2CF29703D3DC967BFF /* JiveFetchedResultsControllerDelegate */,
+				01CF337BF3FA7C9A8CFDD65E8D42E2B6 /* Pods-JiveFetchedResultsControllerDelegateDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		085EA30593C1346E2A63DFBD81E004A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				175055B0D0462D39A0BCFBAB28C50E77 /* JiveFetchedResultsControllerDelegate-dummy.m in Sources */,
+				EE541EA15385A1A80E3242916239E2ED /* JiveFetchedResultsControllerDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		483E7804B3D5480D38BD204FA0FD950E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86F069A97AF1B16995D53BF47793493E /* Pods-JiveFetchedResultsControllerDelegateDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1F09D93C67F240A98947E434AE4BDAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JiveFetchedResultsControllerDelegate;
+			target = BE305EC119955E2CF29703D3DC967BFF /* JiveFetchedResultsControllerDelegate */;
+			targetProxy = B2EC059AE67C8B7E73C89E88AECC49EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3EDD3F1FA01E030CE0EA1DEB3384E55E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20F0809EA87B4217E1B7F66D81FA88F1 /* Pods-JiveFetchedResultsControllerDelegateDemo.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		6134F243074F73AE33D793408F1F99F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA4E16D9C8091FB1EBB19CCDAF8710A9 /* JiveFetchedResultsControllerDelegate-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JiveFetchedResultsControllerDelegate/JiveFetchedResultsControllerDelegate-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6707A9297E330675B27B4E1D7E510551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C250F6CAD7DE9D5EB476919D3C7B22F4 /* Pods-JiveFetchedResultsControllerDelegateDemo.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6FA5B2544A665D321FA5257457954A39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA4E16D9C8091FB1EBB19CCDAF8710A9 /* JiveFetchedResultsControllerDelegate-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JiveFetchedResultsControllerDelegate/JiveFetchedResultsControllerDelegate-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		9EB645C612834738B99727720210C23E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E39CD1E764776175CB82EEC82A6C9948 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EB645C612834738B99727720210C23E /* Debug */,
+				E39CD1E764776175CB82EEC82A6C9948 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		336A93B59082C21FD2F3ED6F19310CA8 /* Build configuration list for PBXNativeTarget "JiveFetchedResultsControllerDelegate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6134F243074F73AE33D793408F1F99F2 /* Debug */,
+				6FA5B2544A665D321FA5257457954A39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68B36EF5CF4C098ABE95D69F4885E880 /* Build configuration list for PBXNativeTarget "Pods-JiveFetchedResultsControllerDelegateDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6707A9297E330675B27B4E1D7E510551 /* Debug */,
+				3EDD3F1FA01E030CE0EA1DEB3384E55E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
