@@ -11,8 +11,8 @@
 #import <UIKit/UIKit.h>
 
 // adapted from http://www.fruitstandsoftware.com/blog/2013/02/19/uitableview-and-nsfetchedresultscontroller-updates-done-right/
-// which is licensed under CC Attribution. Need to figure out what this means for us or if I even need to worry about it:
-// https://twitter.com/MrRooni/status/607938115274031104
+// which we may license with Apache2. 
+// https://twitter.com/MrRooni/status/654602640710569984
 @interface JiveFetchedResultsControllerDelegate : NSObject<NSFetchedResultsControllerDelegate>
 
 - (instancetype)init NS_UNAVAILABLE;

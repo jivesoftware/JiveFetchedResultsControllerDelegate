@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name = 'JiveFetchedResultsControllerDelegate'
-  s.version = '0.1.0'
-  s.license = { :type => 'CC', :file => 'LICENSE' }
+  s.version = '0.1.1'
+  s.license = { :type => "Apache License, Version 2.0", :file => "LICENSE" } 
   s.summary = 'JiveFetchedResultsControllerDelegate integrates NSFetchedResultsController and UITableView'
   s.homepage = 'https://github.com/jivesoftware/JiveFetchedResultsControllerDelegate'
   s.social_media_url = 'http://twitter.com/JiveSoftware'

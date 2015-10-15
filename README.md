@@ -11,6 +11,6 @@ Use JiveFetchedResultsControllerDelegate as your NSFetchedResultsControllerDeleg
 License
 -------
 
-Creative Commons Attribution, [as Michael Fey's original work requires][https://twitter.com/MrRooni/status/607938115274031104].
+Apache v2, [with Michael Fey's permission][https://twitter.com/MrRooni/status/654602640710569984].
 See the LICENSE file.
 
